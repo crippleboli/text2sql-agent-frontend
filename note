@@ -1,0 +1,4 @@
+
+1. 启动  $env:Path += ";C:\Program Files\nodejs"   npm run dev
+2. 安装依赖  npm install
+3.

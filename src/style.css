@@ -1,0 +1,16 @@
+/* 全局盒子模型重置 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 全屏宽高铺满，禁止页面整体出现滚动条（由内部 .messages 负责滚动） */
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
